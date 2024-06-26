@@ -153,8 +153,7 @@ operations like `run_remote` or if you define the trigger as a guest trigger.
 
 #### Hooks
 
-Below is an example of a Vagrant trigger that runs before and after each defined
-provisioner:
+Below is an example of a Vagrant trigger that runs before each defined provisioner:
 
 ```ruby
 config.trigger.before :provisioner_run, type: :hook do |t|
